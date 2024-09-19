@@ -5,12 +5,17 @@
         <meta charset="UTF-8">
         <title>DevOnline</title>
         <link href="estilo.css" rel="stylesheet" type="text/css">
+        <style>
+            div.fixed {
+              position: fixed;
+              top: 0;
+            }
+        </style>
     </head>
     <body id="info">
-        
         <header>
             <a href="index.html">
-                <img src="imagenes/DevOnline.png" alt="DevOnline">
+                <div class="fixed"><img src="imagenes/DevOnline.png" alt="DevOnline"></div> <br>
             </a>
         </header>
         <nav>
@@ -29,13 +34,24 @@
             </p>
         </nav>
         <main>
+            <fieldset class="filtroi">
+                <legend>Filtros</legend>
+                <label for="Dificultad">Dificultad</label> <br>
+                <input type="checkbox" name="Dificultad1" value="Muy Fácil"> Muy Fácil <br>
+                <input type="checkbox" name="Dificultad2" value="Fácil"> Fácil <br>
+                <input type="checkbox" name="Dificultad3" value="Intermedio"> Intermedio <br>
+                <input type="checkbox" name="Dificultad4" value="Difícil"> Difícil
+            </fieldset> <br>
             <p>
-                <table>
+                <table class="filtroi">
+                    <thead>
                     <tr>
-                        <th>LENGUAJES</th>
-                        <th>USO</th>
-                        <th>DIFICULTAD</th>
+                        <th><h3>LENGUAJES</h3></th>
+                        <th><h3>USO</h3></th>
+                        <th><h3>DIFICULTAD</h3></th>
                     </tr>
+                    </thead>
+                    <tbody>
                     <tr>
                         <td>Python</td>
                         <td><p>- Desarrollo web (Django, Flask)</p>
@@ -128,6 +144,7 @@
                             <p>- Juegos en plataformas Apple</p></td>
                         <td>Fácil</td>
                     </tr>
+                    </tbody>
                 </table>
             </p>
             <p>Muy Fácil: Ideal para principiantes, con sintaxis clara y fácil de entender.

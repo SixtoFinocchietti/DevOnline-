@@ -5,11 +5,17 @@
         <meta charset="UTF-8">
         <title>DevOnline</title>
         <link href="estilo.css" rel="stylesheet" type="text/css">
+        <style>
+            div.fixed {
+              position: fixed;
+              top: 0;
+            }
+        </style>
     </head>
     <body id="canal">
         <header>
             <a href="index.html">
-                <img src="imagenes/DevOnline.png" alt="DevOnline">
+                <div class="fixed"><img src="imagenes/DevOnline.png" alt="DevOnline"></div> <br>
             </a>
         </header>
         <nav>
@@ -28,5 +34,25 @@
             </p>
         </nav>
         <main>
-            
+            <fieldset>
+                <legend>Filtros</legend>
+                <label for="Idioma">Idioma</label> <br>
+                <input type="radio" name="Idioma" value="Español" checked> Español <br>
+                <input type="radio" name="Idioma" value="Ingles"> Ingles <br> <br>
+                <label for="Lenguajes">Lenguajes</label> <br> <br>
+                <input type="checkbox" name="Lenguajes1" value="Python"> Python <br>
+                <input type="checkbox" name="Lenguajes2" value="JavaScript"> JavaScript <br>
+                <input type="checkbox" name="Lenguajes3" value="Java"> Java <br>
+                <input type="checkbox" name="Lenguajes4" value="C++"> C++ <br>
+                <input type="checkbox" name="Lenguajes4" value="C++"> C# <br>
+                <input type="checkbox" name="Lenguajes4" value="C++"> C <br>
+                <input type="checkbox" name="Lenguajes4" value="C++"> Rudy <br>
+                <input type="checkbox" name="Lenguajes4" value="C++"> PHP <br>
+                <input type="checkbox" name="Lenguajes4" value="C++"> SQL <br>
+                <input type="checkbox" name="Lenguajes4" value="C++"> .NET <br>
+                <input type="checkbox" name="Lenguajes4" value="C++"> R <br>
+                <input type="checkbox" name="Lenguajes4" value="C++"> TypeScript <br>
+                <input type="checkbox" name="Lenguajes4" value="C++"> Swift
+            </fieldset> <br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </main>
