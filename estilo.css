@@ -35,8 +35,24 @@ nav a:hover, .btindex{
     color: black;
     background-color: rgba(178, 178, 178, 0.5);
 }
+
+.btindex a{
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+
+.btindex a:hover{
+    color: black;
+    background-color: rgba(178, 178, 178, 0.5);
+}
+
 table{
-    background-color: rgba(169, 169, 169, 0.364);
+    background-color: rgba(169, 169, 169, 0.5);
 
 }
 td{
@@ -47,12 +63,79 @@ td{
 nav{
     margin-top: 55px;
 }
-main{
+.maini{
     margin-top: 75px;
     margin-left: 350px;
     margin-right: 350px;
 }
 
-.filtrtoi{
-    width: 70%;
+.filtroi{
+    width: 80%;
+}
+
+table.filtroi{
+    margin: 20px 0;
+    width: 85%;
+}
+
+div.fixed {
+    position: fixed;
+    top: 0;
+}
+
+a {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0.2s;
+}
+
+td h2{
+    text-align: center;
+}
+
+td h3{
+    text-align: center;
+}
+
+td h4{
+    text-align: center;
+}
+
+.card{
+    margin: 45px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    border-radius: 20px;
+    border: 2px white solid;
+    padding: 20px;
+    /*background-image: radial-gradient(rgba(0, 0, 0, 0.77), rgba(88, 88, 88, 0.688), rgba(128, 128, 128, 0.496),rgba(167, 167, 167, 0.392)y, rgba(255, 255, 255, 0.227));
+*/
+background-image:  radial-gradient(rgba(255, 255, 255, 0.307), rgba(200, 200, 200, 0.559), rgba(62, 62, 59, 0.849));}
+
+.like img{
+    width: 15%;
+}
+
+.like{
+    background-color: rgba(128, 128, 128, 0.621);
+    width: 25%;
+}
+
+.suscribirte{
+    width: 25%;
+}
+
+.card h3, .card h2, .card p, .card ul{
+    background-image:  radial-gradient(rgba(128, 128, 128, 0.312), rgba(132, 132, 132, 0.597), rgba(0, 0, 0, 0.723));;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.column1{
+    margin-right: 75px;
+}
+
+.column2{
+    font-size: 1.2em;
 }
