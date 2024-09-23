@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&display=swap');
+@media (min-width: 500px) {
+    h1{
+        margin: 1%;
+    }
+}
 
 body{
     background-size: 100%;
@@ -109,9 +114,7 @@ td h4{
     border-radius: 20px;
     border: 2px white solid;
     padding: 20px;
-    /*background-image: radial-gradient(rgba(0, 0, 0, 0.77), rgba(88, 88, 88, 0.688), rgba(128, 128, 128, 0.496),rgba(167, 167, 167, 0.392)y, rgba(255, 255, 255, 0.227));
-*/
-background-image:  radial-gradient(rgba(255, 255, 255, 0.307), rgba(200, 200, 200, 0.559), rgba(62, 62, 59, 0.849));}
+    background-image:  radial-gradient(rgba(255, 255, 255, 0.307), rgba(200, 200, 200, 0.559), rgba(62, 62, 59, 0.849));}
 
 .like img{
     width: 15%;

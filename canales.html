@@ -5,9 +5,12 @@
         <meta charset="UTF-8">
         <title>DevOnline</title>
         <link href="estilo.css" rel="stylesheet" type="text/css">
-
+        <script src="javaScript.js"></script>
+        <link rel="shortcut icon" href="imagenes/1366_2000.jpg" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="javaScript.js"></script>
     </head>
-    <body id="canal">
+    <body id="canal" class="canales" onload="mostrarcanales()">
         <header>
             <a href="index.html">
                 <div class="fixed"><img src="imagenes/DevOnline.png" alt="DevOnline"></div> <br>
@@ -48,128 +51,9 @@
                 <input type="checkbox" name="Lenguajes4" value="C++"> R <br>
                 <input type="checkbox" name="Lenguajes4" value="C++"> TypeScript <br>
                 <input type="checkbox" name="Lenguajes4" value="C++"> Swift
-            </fieldset> <br>
-            <table>
-                <thead>
-                    <tr>
-                        <th><h3><p> CANAL DE </p><p> YOUTUBE </p></h3></th>
-                        <th><h3>LENGUAJES</h3></th>
-                        <th><h3>IDIOMAS</h3></th>
-                        <th><h3>NÚMERO DE LIKES PROMEDIO</h3></th>
-                        <th><h3>NÚMERO DE SUSCRIPTORES</h3></th>
-                        <th><h3>DESCRIPCIÓN</h3></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><img src="imagenes/Programación ATS.png" alt="Programación ATS"> <br><strong><h3> Programación ATS </h3></strong></td>
-                        <td><p><strong><h3> -Python </h3></strong></p><br><p><strong><h3> -C++ </h3></strong></p><br></td>
-                        <td><strong><h3> Español </h3></strong></td>
-                        <td><strong><h2> 15 k </h2></strong></td>
-                        <td><strong><h2> 654 k </h2></strong></td>
-                        <td>
-                            <strong>
-                                En este canal podrás encontrar tutoriales didácticos 
-                                de programación, y ademas temas interesantes en Curiosidades de Programación
-                            </strong>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><img src="imagenes/INFORMATICONFIG.jpg" alt=""> <br><strong><h3>INFORMATICONFIG</h3></strong></td>
-                        <td>
-                            <p><strong><h5> -JavaScript </h5></strong></p><br>
-                            <p><strong><h3> -Java </h3></strong></p><br>
-                            <p><strong><h3> -SQL </h3></strong></p><br>
-                            <p><strong><h3> -Python </h3></strong></p><br>
-                            <p><strong><h3> -HTML </h3></strong></p>
-                        </td>
-                        <td><strong><h3> Español </h3></strong></td>
-                        <td><strong><h2> 342 </h2></strong></td>
-                        <td><strong><h2> 64,7 K </h2></strong></td>
-                        <td>
-                            <strong>
-                                <p>
-                                    ¡Bienvenidos a Informaticonfig! <br>
-                                    En este emocionante rincón cibernético, exploramos el vasto universo de la informática de una manera amigable, accesible y divertida. ¿Eres un apasionado de la tecnología, un entusiasta de la programación, o simplemente alguien curioso por descubrir el mundo digital? ¡Has llegado al lugar correcto! <br>
-                                    Este canal está diseñado para satisfacer a todos los niveles de experiencia, desde principiantes hasta expertos. Aquí encontrarás: <br>
-                                    🖥️ Tutoriales paso a paso: Aprende a programar, configurar herramientas, resolver ejercicios y mucho más. <br>
-                                    No importa si eres un novato curioso o un experto en busca de nuevos desafíos, en Informaticonfig estamos comprometidos a ayudarte a expandir tus conocimientos y habilidades en el mundo de la informática. <br>
-                                    No olvides suscribirte, activar las notificaciones y unirte a nosotros en este emocionante viaje hacia el futuro digital. ¡Estamos ansiosos por explorar el mundo de la informática contigo! <br>
-                                </p>
-                            </strong>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            </fieldset> <br>  
 
-            <div class="card">
-                <div class="column1">
-                    <img src="imagenes/Programación ATS.png" alt="Programación ATS">
-                    <strong><h3> Programación ATS </h3></strong>
-                    <p>
-                    <a href="https://www.youtube.com/@LaGeekipediaDeErnesto">
-                        <img class="suscribirte" src="imagenes/Youtube-Subscribe-Button-Free-PNG-Image.png" alt="Suscribirse">
-                    </a>
-                    <strong><h2> 654 k SUSCRIPTORES </h2></strong>
-                    <p class="like">
-                        <img src="imagenes/889221.png" alt="Likes">
-                        15 k
-                    </p>
-                </div>
-                <div class="column2">
-                    <ul>
-                        <li>
-                            C++
-                        </li>
-                        <li>
-                            Python
-                        </li>
-                    </ul>
-                    <p>
-                        Idioma: Español
-                    </p>
-                    <p>
-                        Información:  En este canal podrás encontrar tutoriales didácticos 
-                        de programación, y ademas temas interesantes en Curiosidades de Programación
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="column1">
-                    <img src="imagenes/Programación ATS.png" alt="Programación ATS">
-                    <strong><h3> Programación ATS </h3></strong>
-                    <p>
-                    <a href="https://www.youtube.com/@LaGeekipediaDeErnesto">
-                        <img class="suscribirte" src="imagenes/Youtube-Subscribe-Button-Free-PNG-Image.png" alt="Suscribirse">
-                    </a>
-                    <strong><h2> 654 k SUSCRIPTORES </h2></strong>
-                    <p class="like">
-                        <img src="imagenes/889221.png" alt="Likes">
-                        15 k
-                    </p>
-                </div>
-                <div class="column2">
-                    <ul>
-                        <li>
-                            C++
-                        </li>
-                        <li>
-                            Python
-                        </li>
-                    </ul>
-                    <p>
-                        Idioma: Español
-                    </p>
-                    <p>
-                        ¡Bienvenidos a Informaticonfig! <br>
-                        En este emocionante rincón cibernético, exploramos el vasto universo de la informática de una manera amigable, accesible y divertida. ¿Eres un apasionado de la tecnología, un entusiasta de la programación, o simplemente alguien curioso por descubrir el mundo digital? ¡Has llegado al lugar correcto! <br>
-                        Este canal está diseñado para satisfacer a todos los niveles de experiencia, desde principiantes hasta expertos. Aquí encontrarás: <br>
-                        🖥️ Tutoriales paso a paso: Aprende a programar, configurar herramientas, resolver ejercicios y mucho más. <br>
-                        No importa si eres un novato curioso o un experto en busca de nuevos desafíos, en Informaticonfig estamos comprometidos a ayudarte a expandir tus conocimientos y habilidades en el mundo de la informática. <br>
-                        No olvides suscribirte, activar las notificaciones y unirte a nosotros en este emocionante viaje hacia el futuro digital. ¡Estamos ansiosos por explorar el mundo de la informática contigo! <br>
-                    </p>
-                </div>
-            </div>
+            <section class="listado-canales"></section>
         </main>
     </body>
 </html>
