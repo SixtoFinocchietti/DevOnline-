@@ -26,7 +26,7 @@
                     <strong> <em> Canales </em> </strong>
                 </a>
 
-                <a href="info.html">
+                <a href="infos.html">
                     Información de Lenguajes
                 </a>
             </p>
@@ -35,22 +35,23 @@
             <fieldset class="maini">
                 <legend>Filtros</legend>
                 <label for="Idioma">Idioma</label> <br>
-                <input type="radio" name="Idioma" value="Español" checked> Español <br>
-                <input type="radio" name="Idioma" value="Ingles"> Ingles <br> <br>
+                <input type="radio" name="Idioma" value="Español" checked onclick="aplicarFiltro()"> Español <br>
+                <input type="radio" name="Idioma" value="Ingles" onclick="aplicarFiltro()"> Ingles <br> <br>
                 <label for="Lenguajes">Lenguajes</label> <br> <br>
-                <input type="checkbox" name="Lenguajes1" value="Python"> Python <br>
-                <input type="checkbox" name="Lenguajes2" value="JavaScript"> JavaScript <br>
-                <input type="checkbox" name="Lenguajes3" value="Java"> Java <br>
-                <input type="checkbox" name="Lenguajes4" value="C++"> C++ <br>
-                <input type="checkbox" name="Lenguajes4" value="C++"> C# <br>
-                <input type="checkbox" name="Lenguajes4" value="C++"> C <br>
-                <input type="checkbox" name="Lenguajes4" value="C++"> Rudy <br>
-                <input type="checkbox" name="Lenguajes4" value="C++"> PHP <br>
-                <input type="checkbox" name="Lenguajes4" value="C++"> SQL <br>
-                <input type="checkbox" name="Lenguajes4" value="C++"> .NET <br>
-                <input type="checkbox" name="Lenguajes4" value="C++"> R <br>
-                <input type="checkbox" name="Lenguajes4" value="C++"> TypeScript <br>
-                <input type="checkbox" name="Lenguajes4" value="C++"> Swift
+                <input type="checkbox" name="Lenguajes1" value="Python" onclick="aplicarFiltro()"> Python <br>
+                <input type="checkbox" name="Lenguajes2" value="JavaScript" onclick="aplicarFiltro()"> JavaScript <br>
+                <input type="checkbox" name="Lenguajes3" value="Java" onclick="aplicarFiltro()"> Java <br>
+                <input type="checkbox" name="Lenguajes4" value="C++" onclick="aplicarFiltro()"> C++ <br>
+                <input type="checkbox" name="Lenguajes4" value="C#" onclick="aplicarFiltro()"> C# <br>
+                <input type="checkbox" name="Lenguajes4" value="C" onclick="aplicarFiltro()"> C <br>
+                <input type="checkbox" name="Lenguajes4" value="Rudy" onclick="aplicarFiltro()"> Rudy <br>
+                <input type="checkbox" name="Lenguajes4" value="PHP" onclick="aplicarFiltro()"> PHP <br>
+                <input type="checkbox" name="Lenguajes4" value="SQL" onclick="aplicarFiltro()"> SQL <br>
+                <input type="checkbox" name="Lenguajes4" value=".NET" onclick="aplicarFiltro()"> .NET <br>
+                <input type="checkbox" name="Lenguajes4" value="R" onclick="aplicarFiltro()"> R <br>
+                <input type="checkbox" name="Lenguajes4" value="TypeScript" onclick="aplicarFiltro()"> TypeScript <br>
+                <input type="checkbox" name="Lenguajes4" value="Swift" onclick="aplicarFiltro()"> Swift <br>
+                <input type="checkbox" name="Lenguajes4" value="HTML" onclick="aplicarFiltro()"> HTML
             </fieldset> <br>  
 
             <section class="listado-canales"></section>

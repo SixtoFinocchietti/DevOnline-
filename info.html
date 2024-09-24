@@ -8,8 +8,9 @@
         <script src="javaScript.js"></script>
         <link rel="shortcut icon" href="imagenes/1366_2000.jpg" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="javaScript.js"></script>
     </head>
-    <body id="info">
+    <body id="infos" class="infos" onload="mostrarinfo">
         <header>
             <a href="index.html">
                 <div class="fixed"><img src="imagenes/DevOnline.png" alt="DevOnline"></div> <br>
@@ -25,7 +26,7 @@
                     Canales
                 </a>
 
-                <a href="info.html">
+                <a href="infos.html">
                     <strong> <em> Información de Lenguajes </em> </strong>
                 </a>
             </p>
@@ -34,10 +35,10 @@
             <fieldset class="filtroi">
                 <legend>Filtros</legend>
                 <label for="Dificultad">Dificultad</label> <br>
-                <input type="checkbox" name="Dificultad1" value="Muy Fácil"> Muy Fácil <br>
-                <input type="checkbox" name="Dificultad2" value="Fácil"> Fácil <br>
-                <input type="checkbox" name="Dificultad3" value="Intermedio"> Intermedio <br>
-                <input type="checkbox" name="Dificultad4" value="Difícil"> Difícil
+                <input type="checkbox" name="Dificultad1" value="Muy Fácil" checked> Muy Fácil <br>
+                <input type="checkbox" name="Dificultad2" value="Fácil" checked> Fácil <br>
+                <input type="checkbox" name="Dificultad3" value="Intermedio" checked> Intermedio <br>
+                <input type="checkbox" name="Dificultad4" value="Difícil" checked> Difícil
             </fieldset> <br>
             <p>
                 <table class="filtroi">
@@ -158,5 +159,8 @@
             <p><strong>Fácil:</strong> Accesible para quienes tienen algo de experiencia previa, con recursos abundantes.</p>
             <p><strong>Intermedio:</strong> Requiere mayor comprensión de conceptos de programación y puede ser más complejo.</p>
             <p><strong>Difícil:</strong> Necesita un buen entendimiento de programación y puede ser más desafiante para los nuevos aprendices.</p>
+            <section class="listado-infos"></section>
         </main>
     </body>
+</html>
+
