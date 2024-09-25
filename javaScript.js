@@ -199,8 +199,8 @@ function mostrarinfo(listainfos=infos){
       infoshtml+=`<strong><h2> ${infos.nombrei} </h2></strong>`;
       infoshtml+=`</div>`;
       infoshtml+=`<div class="column2">`;
-      infoshtml+=`<p>Dificultad: <strong>${infos.dificultad}</strong></p>`;
-      infoshtml+=`<ul>`;
+      infoshtml+=`<p>Dificultad:</p> <p><strong>${infos.dificultad}</strong></p>`;
+      infoshtml+=`<p>Uso:</p> <ul>`;
       infos.uso.forEach((dific)=>{
         infoshtml+=`<li><strong>${dific}</strong></li>`
       })
