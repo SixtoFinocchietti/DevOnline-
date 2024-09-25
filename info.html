@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="javaScript.js"></script>
     </head>
-    <body id="infos" class="infos" onload="mostrarinfo">
+    <body id="info" class="infos" onload="mostrarinfo()">
         <header>
             <a href="index.html">
                 <div class="fixed"><img src="imagenes/DevOnline.png" alt="DevOnline"></div> <br>
@@ -32,134 +32,16 @@
             </p>
         </nav>
         <main class="maini">
-            <fieldset class="filtroi">
+            <fieldset>
                 <legend>Filtros</legend>
                 <label for="Dificultad">Dificultad</label> <br>
-                <input type="checkbox" name="Dificultad1" value="Muy Fácil" checked> Muy Fácil <br>
-                <input type="checkbox" name="Dificultad2" value="Fácil" checked> Fácil <br>
-                <input type="checkbox" name="Dificultad3" value="Intermedio" checked> Intermedio <br>
-                <input type="checkbox" name="Dificultad4" value="Difícil" checked> Difícil
+                <input type="radio" name="Dificultad" value="Muy Fácil" checked onclick="aplicarFiltroi()"> Muy Fácil <br>
+                <input type="radio" name="Dificultad" value="Fácil" onclick="aplicarFiltroi()"> Fácil <br>
+                <input type="radio" name="Dificultad" value="Intermedio" onclick="aplicarFiltroi()"> Intermedio <br>
+                <input type="radio" name="Dificultad" value="Difícil" onclick="aplicarFiltroi()"> Difícil
             </fieldset> <br>
             <p>
-                <table class="filtroi">
-                    <thead>
-                    <tr>
-                        <th><h3>LENGUAJES</h3></th>
-                        <th><h3>USO</h3></th>
-                        <th><h3>DIFICULTAD</h3></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td><strong>Python</strong></td>
-                        <td><p>- Desarrollo web (Django, Flask)</p>
-                            <p>- Ciencia de datos y análisis (Pandas, NumPy)</p>
-                            <p>- Inteligencia artificial y aprendizaje automático</p>
-                            <p>- Automatización de tareas</p></td>
-                        <td>Muy Fácil</td>
-                    </tr>
-                    <tr>
-                        <td><strong>JavaScript</strong></td>
-                        <td><p>- Desarrollo web (frontend y backend con Node.js)</p>
-                            <p>- Desarrollo de aplicaciones móviles (React Native)</p>
-                            <p>- Interacción en el navegador</p></td>
-                        <td>Fácil</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Java</strong></td>
-                        <td><p>- Desarrollo de aplicaciones empresariales</p>
-                            <p>- Desarrollo de aplicaciones Android</p>
-                            <p>- Servidores y aplicaciones web (Spring)</p></td>
-                        <td>Intermedio</td>
-                    </tr>
-                    <tr>
-                        <td><strong>C++</strong></td>
-                        <td><p>- Desarrollo de software de sistemas</p>
-                            <p>- Juegos y motores de videojuegos</p>
-                            <p>- Aplicaciones de alto rendimiento</p></td>
-                        <td>Difícil</td>
-                    </tr>
-                    <tr>
-                        <td><strong>C#</strong></td>
-                        <td><p>- Desarrollo de aplicaciones de escritorio</p>
-                            <p>- Desarrollo de videojuegos (Unity)</p>
-                            <p>- Aplicaciones web (ASP.NET)</p></td>
-                        <td>Intermedio</td>
-                    </tr>
-                    <tr>
-                        <td><strong>C</strong></td>
-                        <td><p>- Sistemas operativos</p>
-                            <p>- Controladores de hardware</p>
-                            <p>- Aplicaciones de alto rendimiento</p></td>
-                        <td>Difícil</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Rudy</strong></td>
-                        <td><p>- Desarrollo web (Ruby on Rails)</p>
-                            <p>- Prototipado rápido</p>
-                            <p>- Automatización de tareas</p></td>
-                        <td>Fácil</td>
-                    </tr>
-                    <tr>
-                        <td><strong>PHP</strong></td>
-                        <td><p>- Desarrollo web del lado del servidor</p>
-                            <p>- Sistemas de gestión de contenido (WordPress)</p>
-                            <p>- Aplicaciones web dinámicas</p></td>
-                        <td>Fácil</td>
-                    </tr>
-                    <tr>
-                        <td><strong>SQL</strong></td>
-                        <td><p>- Gestión y manipulación de bases de datos</p>
-                            <p>- Análisis de datos</p>
-                            <p>- Consultas y reportes en aplicaciones</p></td>
-                        <td>Fácil</td>
-                    </tr>
-                    <tr>
-                        <td><strong>.NET</strong></td>
-                        <td><p>- Desarrollo de aplicaciones empresariales</p>
-                            <p>- Aplicaciones web (ASP.NET)</p>
-                            <p>- Desarrollo de servicios web y APIs</p></td>
-                        <td>Intermedio</td>
-                    </tr>
-                    <tr>
-                        <td><strong>R</strong></td>
-                        <td><p>- Análisis estadístico</p>
-                            <p>- Visualización de datos</p>
-                            <p>- Ciencia de datos</p></td>
-                        <td>Intermedio</td>
-                    </tr>
-                    <tr>
-                        <td><strong>TypeScript</strong></td>
-                        <td><p>- Desarrollo web (aplicaciones de gran escala)</p>
-                            <p>- Mejora de la mantenibilidad de código JavaScript</p>
-                            <p>- Desarrollo de aplicaciones móviles (React Native)</p></td>
-                        <td>Intermedio</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Swift</strong></td>
-                        <td><p>- Desarrollo de aplicaciones para iOS y macOS</p>
-                            <p>- Desarrollo de aplicaciones de escritorio</p>
-                            <p>- Juegos en plataformas Apple</p></td>
-                        <td>Fácil</td>
-                    </tr>
-                    <tr>
-                        <td><strong>HTML</strong></td>
-                        <td>
-                            <p>Estructura del contenido web</p>
-                            <p>Presentación básica</p>
-                            <p>Integración de otros elementos</p>
-                            <p>Creación de páginas web estáticas</p>
-                        </td>
-                        <td>Muy Fácil</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </p>
-            <p><strong>Muy Fácil:</strong> Ideal para principiantes, con sintaxis clara y fácil de entender. </p>
-            <p><strong>Fácil:</strong> Accesible para quienes tienen algo de experiencia previa, con recursos abundantes.</p>
-            <p><strong>Intermedio:</strong> Requiere mayor comprensión de conceptos de programación y puede ser más complejo.</p>
-            <p><strong>Difícil:</strong> Necesita un buen entendimiento de programación y puede ser más desafiante para los nuevos aprendices.</p>
-            <section class="listado-infos"></section>
+            <section class="listado-infos"></section> 
         </main>
     </body>
 </html>

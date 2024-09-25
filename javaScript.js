@@ -77,7 +77,7 @@ function mostrarcanales(listacanales=canales){
     document.querySelector(".listado-canales").innerHTML=canalhtml;
 }
 
-function aplicarFiltro() 
+function aplicarFiltroc() 
 {
     let canalesFiltrados; //Creamos una variable para ir guardando los canales que cumplen con los filtros aplicados
   
@@ -127,7 +127,7 @@ const infos=[
     uso:["Sistemas operativos", "Controladores de hardware", "Aplicaciones de alto rendimiento"],
    },
    {
-    logoi:"imagenes/Logo_C#.png",
+    logoi:"imagenes/Logo_Csharp.png",
     nombrei:"C#",
     dificultad: "Intermedio: Requiere mayor comprensión de conceptos de programación y puede ser más complejo.",
     uso:["Desarrollo de aplicaciones de escritorio", "Desarrollo de videojuegos (Unity)", "Aplicaciones web (ASP.NET)"],
@@ -195,16 +195,16 @@ function mostrarinfo(listainfos=infos){
   let infoshtml="";
   listainfos.forEach((infos)=>{
       infoshtml+=`<div class="card"><div class="column1">`;
-      infoshtml+=`<img src="${infos.logoi}" alt="${infos.nombrei}">`;
-      infoshtml+=`<strong><h3> ${infos.nombrei} </h3></strong>`;
+      infoshtml+=`<img class="imginfojava" src="${infos.logoi}" alt="${infos.nombrei} logo">`;
+      infoshtml+=`<strong><h2> ${infos.nombrei} </h2></strong>`;
       infoshtml+=`</div>`;
       infoshtml+=`<div class="column2">`;
+      infoshtml+=`<p>Dificultad: <strong>${infos.dificultad}</strong></p>`;
       infoshtml+=`<ul>`;
-      infos.dificultad.forEach((dific)=>{
-        infoshtml+=`<li>${dific}</li>`
+      infos.uso.forEach((dific)=>{
+        infoshtml+=`<li><strong>${dific}</strong></li>`
       })
       infoshtml+=`</ul>`;
-      infoshtml+=`<p>Dificultad: <strong>${infos.dificultad}</strong></p>`;
       infoshtml+=`
               </div>
           </div>`;
@@ -213,17 +213,17 @@ function mostrarinfo(listainfos=infos){
   document.querySelector(".listado-infos").innerHTML=infoshtml;
 }
 
-function aplicarFiltro() 
+function aplicarFiltroi() 
 {
   let infoFiltrados; //Creamos una variable para ir guardando los canales que cumplen con los filtros aplicados
 
-  document.querySelectorAll('input[type="checkbox"]').forEach((progLeng) => { //Nos traemos TODOS los inputs y vamos input por input recorriendolos
-    if (progLeng.checked) { //Si el input esta checkeado
-      console.log(progLeng.value); //Esto es para imprimir por consola...se puede eliminar
-      infoFiltrados = infoFiltrados.filter((infos) => { //Tomamos los canales filtrados anteriormente y ahora los filtramos por lenguaje de programación 
-        return infos.dificultad.includes(progLeng.value); //Ejemplo de includes sencillos https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+  document.querySelectorAll('input[type="radio"]').forEach((progDifi) => { //Nos traemos TODOS los inputs y vamos input por input recorriendolos
+    if (progDifi.checked) { //Si el input esta checkeado
+      console.log(progDifi.value); //Esto es para imprimir por consola...se puede eliminar
+      infoFiltrados = infos.filter((info) => { //Tomamos los canales filtrados anteriormente y ahora los filtramos por lenguaje de programación 
+        return info.dificultad.includes(progDifi.value); //Ejemplo de includes sencillos https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
       });
     }
   });
-  mostrarinfo(infosFiltrados);
+  mostrarinfo(infoFiltrados);
 }
