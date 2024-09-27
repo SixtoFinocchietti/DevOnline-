@@ -28,17 +28,18 @@ body{
     background-image: linear-gradient(to bottom left, #959595, #272727, #4E4E4E);
 }
 
-nav a, .btindex{
+#infobutton{
     text-decoration: none;
     background-color: rgba(128, 128, 128, 0.5);
     color: white;
-    margin: 20px;
+    margin-left: 7.3%;   
     padding: 10px;
     border-radius: 7px;
     border: 2px solid black;
+    
 }
 
-nav a:hover, .btindex{
+#infobutton:hover{
     color: black;
     background-color: rgba(178, 178, 178, 0.5);
 }
@@ -47,7 +48,7 @@ nav a:hover, .btindex{
     text-decoration: none;
     background-color: rgba(128, 128, 128, 0.5);
     color: white;
-    margin: 20px;
+    margin: 5%;
     padding: 10px;
     border-radius: 7px;
     border: 2px solid black;

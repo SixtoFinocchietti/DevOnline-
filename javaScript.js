@@ -43,11 +43,11 @@ const canales=[
         likes: "17 k likes",
         idioma: "Español",
         lenguaje: ["C#", "C","Python","Java","JavaScript"],
-        descripcion: "Se presentan una serie de cursos para iniciarse en la programación teniendo en cuenta los contenidos de los primeros años de universidades e instituciones educativas. Los lenguajes a emplear en un principio serán C, Java, Python, C# y JavaScript. La elección del primer lenguaje a estudiar generalmente viene impuesta por la institución donde estudiamos. Otro ámbito a incursionar son las bases de datos y deberás elegir entre: Microsoft SQL Server, MySQL, Oracle. Es posible luego de haber aprendido los conceptos básicos de lógica y programación iniciarse en la codificación para dispositivos móviles. Por el momento hago mi aporte con el curso de Android con Java (se requiere haber visto el lenguaje Java) Es posible que una vez realizado el curso quieras consultar su contenido en modo texto visitando el sitio: https://www.tutorialesprogramacionya.com/",
+        descripcion: "Se presentan una serie de cursos para iniciarse en la programación teniendo en cuenta los contenidos de los primeros años de universidades e instituciones educativas.<br> Los lenguajes a emplear en un principio serán C, Java, Python, C# y JavaScript.<br> La elección del primer lenguaje a estudiar generalmente viene impuesta por la institución donde estudiamos.<br><br> Otro ámbito a incursionar son las bases de datos y deberás elegir entre: Microsoft SQL Server, MySQL, Oracle.<br> Es posible luego de haber aprendido los conceptos básicos de lógica y programación iniciarse en la codificación para dispositivos móviles.<br> Por el momento hago mi aporte con el curso de Android con Java (se requiere haber visto el lenguaje Java) Es posible que una vez realizado el curso quieras consultar su contenido en modo texto visitando el sitio: https://www.tutorialesprogramacionya.com/",
     }, {
         logoc: "imagenes/Danisable Programacion2.png",
         nombrec: "Danisable Programacion",
-        canal: "https://www.youtube.com/@diegomoissetdeespanes",
+        canal: "https://www.youtube.com/@DanisableProgramacion",
         suscriptores: "119 k SUSCRIPTORES",
         likes: "5 k likes",
         idioma: "Español",
@@ -56,7 +56,7 @@ const canales=[
     }, {
       logoc: "imagenes/Shiva Gautam.jpg",
       nombrec: "Shiva Gautam",
-      canal: "https://www.youtube.com/@diegomoissetdeespanes",
+      canal: "https://www.youtube.com/@ShivaConceptSolution",
       suscriptores: "18,2 k SUSCRIPTORES",
       likes: "13,6 k likes",
       idioma: "English",
@@ -65,12 +65,21 @@ const canales=[
     }, {
       logoc: "imagenes/Simplilearn.jpg",
       nombrec: "Simplilearn",
-      canal: "https://www.youtube.com/@diegomoissetdeespanes",
+      canal: "https://www.youtube.com/@SimplilearnOfficial/featured",
       suscriptores: "4,4 M SUSCRIPTORES",
       likes: "256,8 k likes",
       idioma: "English",
       lenguaje: ["Python","Java","JavaScript",".NET", "R","SQL","HTML","C++","C#","TypeScript","Ruby","C","Swift"],
-      descripcion: "I have been an entrepreneur since 2013, and I am currently managing Kangaroo Software Pvt. Ltd., a software development company, as well as Shiva Concept Solution, the number one software technology training institute in Indore. I am very passionate about teaching and helping students. I also created www.shivaconceptdigital.com, an online platform where students can learn programming at an affordable fee structure. Additionally, I developed www.shivatutorials.com, where you can access free and easy-to-follow tutorials.",
+      descripcion: "I have been an entrepreneur since 2013, and I am currently managing Kangaroo Software Pvt. Ltd., a software development company, as well as Shiva Concept Solution, the number one software technology training institute in Indore.<br> I am very passionate about teaching and helping students.<br> I also created www.shivaconceptdigital.com, an online platform where students can learn programming at an affordable fee structure.<br> Additionally, I developed www.shivatutorials.com, where you can access free and easy-to-follow tutorials.",
+    }, {
+      logoc: "imagenes/Net Ninja.png",
+      nombrec: "Net Ninja",
+      canal: "https://www.youtube.com/@NetNinja/featured",
+      suscriptores: "1,58 M SUSCRIPTORES",
+      likes: "198,7 k likes",
+      idioma: "English",
+      lenguaje: ["Python","JavaScript","PHP","HTML","TypeScript"],
+      descripcion: "Black-belt your web development skills. Over 2000 free programming tutorial videos about:<br> - Modern JavaScript (beginner to advanced)<br> - Node.js<br> - React<br> - Vue.js<br> - Firebase<br> - MongoDB<br> - HTML & CSS<br> - PHP & MySQL<br> - Laravel<br> - React Native<br> - Flutter<br> - Open AI<br> - SolidJS<br> ...And many more topics as well :<br>",
     }
 ]
 
