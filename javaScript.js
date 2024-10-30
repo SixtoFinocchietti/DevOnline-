@@ -51,7 +51,7 @@ const canales=[
         suscriptores: "119 k SUSCRIPTORES",
         likes: "5 k likes",
         idioma: "Español",
-        lenguaje: ["C#","C","C++","Python","Java","JavaScript","PHP","SQL","HTML","Swift","Ruby"],
+        lenguaje: ["C#","C","C++","Python","Java","JavaScript","PHP","SQL","HTML","Swift","Ruby","Arduino"],
         descripcion: "Canal enfocado a la transmisión de conocimientos informáticos específicamente hablando del desarrollo de software. Hablamos de programación, entornos de desarrollo, software y mucho mas!",
     }, {
       logoc: "imagenes/Shiva Gautam.jpg",
