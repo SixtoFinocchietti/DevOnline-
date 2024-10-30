@@ -37,13 +37,13 @@ const canales=[
         descripcion: "Este canal pretende compartir conocimientos informáticos entre todos los integrantes de la comunidad Internet. Se tratarán diversas materias, desde ofimática básica y avanzada hasta programación, pasando por diseño gráfico y web.",
     }, {
         logoc: "imagenes/diego moisset de espanes.jpg",
-        nombrec: "diego moisset de espanes",
+        nombrec: "diego moisset<br> de espanes",
         canal: "https://www.youtube.com/@diegomoissetdeespanes",
         suscriptores: "28,9 k SUSCRIPTORES",
         likes: "17 k likes",
         idioma: "Español",
         lenguaje: ["C#", "C","Python","Java","JavaScript"],
-        descripcion: "Se presentan una serie de cursos para iniciarse en la programación teniendo en cuenta los contenidos de los primeros años de universidades e instituciones educativas.<br> Los lenguajes a emplear en un principio serán C, Java, Python, C# y JavaScript.<br> La elección del primer lenguaje a estudiar generalmente viene impuesta por la institución donde estudiamos.<br><br> Otro ámbito a incursionar son las bases de datos y deberás elegir entre: Microsoft SQL Server, MySQL, Oracle.<br> Es posible luego de haber aprendido los conceptos básicos de lógica y programación iniciarse en la codificación para dispositivos móviles.<br> Por el momento hago mi aporte con el curso de Android con Java (se requiere haber visto el lenguaje Java) Es posible que una vez realizado el curso quieras consultar su contenido en modo texto visitando el sitio: https://www.tutorialesprogramacionya.com/",
+        descripcion: "Se presentan una serie de cursos para iniciarse en la programación teniendo en cuenta los contenidos de los primeros años de universidades e instituciones educativas.<br><br> Los lenguajes a emplear en un principio serán C, Java, Python, C# y JavaScript.<br><br> La elección del primer lenguaje a estudiar generalmente viene impuesta por la institución donde estudiamos.<br><br> Otro ámbito a incursionar son las bases de datos y deberás elegir entre: Microsoft SQL Server, MySQL, Oracle.<br><br> Es posible luego de haber aprendido los conceptos básicos de lógica y programación iniciarse en la codificación para dispositivos móviles.<br><br> Por el momento hago mi aporte con el curso de Android con Java (se requiere haber visto el lenguaje Java)<br><br> Es posible que una vez realizado el curso quieras consultar su contenido en modo texto visitando el sitio: https://www.tutorialesprogramacionya.com/<br><br>",
     }, {
         logoc: "imagenes/Danisable Programacion2.png",
         nombrec: "Danisable Programacion",
@@ -69,8 +69,8 @@ const canales=[
       suscriptores: "4,4 M SUSCRIPTORES",
       likes: "256,8 k likes",
       idioma: "English",
-      lenguaje: ["Python","Java","JavaScript",".NET", "R","SQL","HTML","C++","C#","TypeScript","Ruby","C","Swift"],
-      descripcion: "I have been an entrepreneur since 2013, and I am currently managing Kangaroo Software Pvt. Ltd., a software development company, as well as Shiva Concept Solution, the number one software technology training institute in Indore.<br> I am very passionate about teaching and helping students.<br> I also created www.shivaconceptdigital.com, an online platform where students can learn programming at an affordable fee structure.<br> Additionally, I developed www.shivatutorials.com, where you can access free and easy-to-follow tutorials.",
+      lenguaje: ["Python","Java","JavaScript",".NET", "R","SQL","HTML","C++","C#","TypeScript","Ruby","C","Swift","Arduino"],
+      descripcion: "Founded in 2010 and based in Plano, Texas and Bangalore, India, Simplilearn, a Blackstone portfolio company, is the world’s leading digital skills provider, enabling learners across the globe.<br> Simplilearn offers access to world-class work-ready training to individuals and businesses worldwide.<br> Simplilearn offers 1,500+ live online classes each month across 150+ countries, impacting over 8 million learners globally.<br> The programs are designed and delivered with world-renowned universities, top corporations, and leading industry bodies via live online classes featuring top industry practitioners, sought-after trainers, and global leaders.<br> From college students and early career professionals to managers, executives, small businesses, and big corporations, Simplilearn’s role-based, skill-focused, industry-recognized, and globally relevant training programs are ideal upskilling solutions for diverse career or business goals.<br>",
     }, {
       logoc: "imagenes/Net Ninja.png",
       nombrec: "Net Ninja",
@@ -221,6 +221,12 @@ const infos=[
     nombrei:"HTML",
     dificultad: "Fácil: Accesible para quienes tienen algo de experiencia previa, con recursos abundantes.",
     uso:["Estructura del contenido web", "Presentación básica", "Integración de otros elementos", "Creación de páginas web estáticas"],
+    },
+    {
+      logoi:"imagenes/Arduino_Logo.png",
+      nombrei:"Arduino",
+      dificultad: "Fácil: Accesible para quienes tienen algo de experiencia previa, con recursos abundantes.",
+      uso:["Automatización del hogar", "Robótica", "Sistemas de monitoreo ambiental", "Instrumentación y dispositivos portátiles"],
     }
        
 ]
