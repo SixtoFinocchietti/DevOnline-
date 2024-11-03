@@ -44,7 +44,7 @@ body{
     background-color: rgba(178, 178, 178, 0.5);
 }
 
-.btindex{
+#btindex{
     text-decoration: none;
     background-color: rgba(128, 128, 128, 0.5);
     color: white;
@@ -54,7 +54,39 @@ body{
     border: 2px solid black;
 }
 
-.btindex:hover{
+#btindex:hover{
+    color: black;
+    background-color: rgba(178, 178, 178, 0.5);
+}
+
+#btcanal{
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    margin-left: 19.5%;   
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid black;
+    
+}
+
+#btcanal:hover{
+    color: black;
+    background-color: rgba(178, 178, 178, 0.5);
+}
+
+#btcanal1{
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    margin-left: 5%;   
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid black;
+    
+}
+
+#btcanal1:hover{
     color: black;
     background-color: rgba(178, 178, 178, 0.5);
 }
@@ -161,4 +193,6 @@ td h4{
     border-radius: 20px;
     border: 2px white solid;
     padding: 20px;
-    background-image:  radial-gradient(rgba(255, 255, 255, 0.307), rgba(200, 200, 200, 0.559), rgba(62, 62, 59, 0.849));}
+    background-image:  radial-gradient(rgba(255, 255, 255, 0.307), rgba(200, 200, 200, 0.559), rgba(62, 62, 59, 0.849));
+}
+
